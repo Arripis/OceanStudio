@@ -1,0 +1,151 @@
+.navbar navbar-default .navbar-fixed-top {
+    padding-left: 15%;
+}
+body{
+    font-family: roboto;
+   background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.navbar-default {
+  background-color: #49b7d8;
+  border-color: #229bbf;
+}
+.navbar-default .navbar-brand {
+  color: #dcdddd;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #dcdddd;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #dcdddd;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #229bbf;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #229bbf;
+}
+.navbar-default .navbar-toggle {
+  border-color: #229bbf;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #229bbf;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #dcdddd;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #dcdddd;
+}
+.navbar-default .navbar-link {
+  color: #dcdddd;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #dcdddd;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #229bbf;
+  }
+}
+.mainbodytext{
+  color: #ffffff;
+  font-size: 162%;
+    font-family: 'Arapey',georgia,serif;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.2;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.45);
+    text-align: center;
+
+  /* -webkit-text-stroke: 0.1px grey; */
+}
+.mainbodyheading{
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+hr {
+  box-shadow: 0 20px 20px -20px #333;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.45);
+  width: 25%;
+  background-image: linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+}
+#accordion{
+  padding-top: 2%;
+}
+.navbar-harvest .navbar-inner {
+  	background: #f36c00;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f68a28), color-stop(100%, #f36c00));
+	background: -webkit-linear-gradient(top, #f68a28,#f36c00);
+	background: -moz-linear-gradient(top, #f68a28,#f36c00);
+	background: -o-linear-gradient(top, #f68a28,#f36c00);
+	background: -ms-linear-gradient(top, #f68a28,#f36c00);
+	background: linear-gradient(top, #f68a28,#f36c00);
+}	
+.navbar-harvest .navbar-inner .nav {
+	float: right;
+}	
+.navbar-harvest .brand {
+	color: #fff;
+	text-shadow: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.navbar-harvest .navbar-inner .nav li a {
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-shadow: none;
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: background 0.1s linear,opacity 0.1s linear;
+	-moz-transition: background 0.1s linear,opacity 0.1s linear;
+	-ms-transition: background 0.1s linear,opacity 0.1s linear;
+	-o-transition: background 0.1s linear,opacity 0.1s linear;
+	transition: background 0.1s linear,opacity 0.1s linear;
+	-webkit-font-smoothing: antialiased;			
+	opacity: .9;
+	font-weight: 600;
+}
+.navbar-harvest .navbar-inner .nav li a:hover {
+	background: #f67d0f;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	opacity: 1;
+}
